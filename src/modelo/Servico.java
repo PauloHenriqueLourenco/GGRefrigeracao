@@ -5,6 +5,8 @@
  */
 package modelo;
 
+import java.util.Date;
+
 /**
  *
  * @author semuso
@@ -14,6 +16,7 @@ public class Servico {
     private int cod;
     private String endereco;
     private String endereco2;
+    private Date data;
     private double preco; 
 
     
@@ -48,5 +51,13 @@ public class Servico {
     public void setPreco(double preco) {
         this.preco = preco;
     }
+
+    public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
+    }    
     
 }
